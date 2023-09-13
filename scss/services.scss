@@ -1,0 +1,173 @@
+header {
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    margin-bottom: 10px;
+
+    ul {
+        list-style-type: none;
+        margin: 20px;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(80, 79, 82);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        color:rgb(197, 8, 55)
+      }
+
+      a:active {
+        color:rgb(133, 76, 130);
+      }
+
+      h1{
+       color: rgb(150, 105, 46);
+      }
+       :hover {
+        color:rgb(49, 10, 122)
+       }
+      
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-display: 50px;
+}
+
+#two{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+
+    div{
+      margin-top: 50px;
+      display:grid;
+      
+        }
+
+    img{
+      align-self: start;
+      justify-self: center;
+      opacity: 100%;
+      border-radius: 50%;
+      margin-top: 20px;
+        
+    }
+
+}
+
+#finance {
+  display: grid;
+  background-color: rgba(143, 156, 156, 0.26);
+  border-radius: 20px;
+  margin: 30px;
+  column-gap: 10px;
+  h4{
+  justify-self: center;
+  }
+  p {
+    align-content: center;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    
+  }
+}
+
+#payroll {
+  display: grid;
+  background-color: rgba(179, 178, 158, 0.251);
+  border-radius: 20px;
+  margin: 30px;
+  column-gap: 10px;
+  h4{
+    justify-self: center;
+  }
+  p {
+    align-content: center;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+  }
+}
+
+#bizconz {
+  display: grid;
+  background-color: rgba(117, 99, 106, 0.377);
+  border-radius: 20px;
+  margin: 30px;
+  column-gap: 10px;
+  h4{
+    justify-self: center;
+  }
+  p {
+    justify-content: center;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+  }
+}
+
+#hours{
+    display: grid;
+    align-self: start;
+    justify-self: center;
+}
+
+.dates{
+    margin-right: 10px;
+}
+
+#services {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+    color: rgb(55, 56, 56);
+    text-align: center;
+    align-content: center;
+    background-image: linear-gradient(to right, rgba(20, 122, 141, 0.512), rgba(164, 132, 83, 0.429));
+
+    h1{
+        margin-right: 100px;
+        font-weight: 200px;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+   #textbox p{
+        display:contents;
+    }
+ }
+
+
+
+footer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  background-color: rgba(97, 97, 95, 0.737);
+  margin-top: 50px;
+  
+  :hover {
+    color:rgb(8, 18, 197)
+      }
+
+      img{
+        margin-right: 5px;
+    }
+    
+  a{
+      text-decoration: none;
+      color: white;
+    }
+
+  p{
+        color: white
+    }
+}
