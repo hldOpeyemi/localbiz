@@ -1,0 +1,72 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 10px;
+}
+header ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  overflow: hidden;
+}
+header li {
+  float: left;
+}
+header li a {
+  display: block;
+  color: rgb(80, 79, 82);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+header li a:hover {
+  color: rgb(197, 8, 55);
+}
+header a:active {
+  color: rgb(133, 76, 130);
+}
+header h1 {
+  color: rgb(150, 105, 46);
+}
+header :hover {
+  color: rgb(49, 10, 122);
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: oblique;
+  font-display: 50px;
+}
+
+#aboutus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 200px;
+  color: rgb(55, 56, 56);
+  text-align: center;
+  align-content: center;
+  background-image: linear-gradient(to right, rgba(71, 37, 5, 0.712), rgba(78, 78, 87, 0.329));
+}
+#aboutus h1 {
+  margin-right: 100px;
+  font-weight: 200px;
+}
+
+@media only screen and (min-width: 720px) {
+  #textbox p {
+    display: contents;
+  }
+}
+#info {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 20px;
+}
+
+#ownerinfo {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=aboutus.css.map */

@@ -1,13 +1,8 @@
+// Mobile 
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-color: rgb(231, 228, 228);
-    border-radius: 50px;
-    margin-bottom: 20px;
-
-        img {
-            margin: 20px;
-        }
+    grid-template-columns:1fr 2fr;
+    margin-bottom: 10px;
 
     ul {
         list-style-type: none;
@@ -22,50 +17,108 @@ header {
       
       li a {
         display: block;
-        color: rgb(150, 105, 46);
+        color: rgb(80, 79, 82);
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
       }
 
       li a:hover {
-        background-color: rgb(228, 212, 192);
+        color:rgb(197, 8, 55)
       }
+
+      a:active {
+        color:rgb(133, 76, 130);
+      }
+
+      h1{
+       color: rgb(150, 105, 46);
+      }
+       :hover {
+        color:rgb(49, 10, 122)
+       }
+      
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-display: 50px;
 }
 
 #one {
+    background-image: url(../bizmtg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-radius: 50px;
-    column-gap: 30px;
-    
-    img{
-        width: 50vw;
-        height: 70vh;
-        border-radius: 50px;
-        border-style: dotted;
-        margin: 20px;
-    }
-    article {
-        background-color: rgb(231, 228, 228);
-        border-radius: 50px;
-        align-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+            
+}
+
+#textbox {
+    background-color: rgb(73, 70, 66);
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    padding-bottom: 50px;
+
+}
+
+#S1D2 {
+    margin-top: 100px;
+
+
+}
+
+
+#button1 {
+      
+        a{
+        margin-right: 20px;
+        color: white;
+        background-color: rgb(15, 25, 161);
+        border-radius: 20px; 
+        border-style: groove;
+        display: block;
         text-align: center;
-        border-style: dotted;
-        margin: 20px;
-    }
-    
-    heading {
-        color: rgb(160, 121, 70);
-        
-        }
-    p {
-        color: rgb(160, 121, 70);
-        margin:50px;
-        word-spacing: 2px;
-        letter-spacing: 2px;
-        line-height: 70px;
+        padding: 14px 16px;
+        text-decoration: none;   
+        margin-bottom: 20px;          
     }
 
+}
 
+#button2 {
+      
+    a{
+        margin-right: 20px;
+        color: white;
+        background-color: rgb(73, 70, 66);   
+        border-radius: 20px; 
+        border-style: groove;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;             
+    }
+ }
+
+
+
+
+   
+#textbox p{
+    display: none;
+}
+
+@media only screen and (min-width: 720px) {
+   #textbox p{
+        display:contents;
+    }
+
+   
+}
+
+#S1D3 {
+    margin: 20px;
 }
